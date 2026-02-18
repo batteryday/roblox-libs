@@ -1,0 +1,6 @@
+[submodule "ProfileStore"]
+	path = ProfileStore
+	url = https://github.com/MadStudioRoblox/ProfileStore.git
+[submodule "Replica"]
+	path = Replica
+	url = https://github.com/MadStudioRoblox/Replica.git
