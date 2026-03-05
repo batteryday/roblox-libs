@@ -34,14 +34,14 @@ function ServiceLoader.loadAll(modules: { [string]: ModuleScript }): { [string]:
 	-- Phase 2: Init all (set up state, no cross-module deps)
 	for _name: string, mod: Module in loaded do
 		if mod.Init then
-			mod.Init(loaded)
+			mod:Init(loaded)
 		end
 	end
 
 	-- Phase 3: Start all (begin game logic, cross-module access safe)
 	for _name: string, mod: Module in loaded do
 		if mod.Start then
-			mod.Start(loaded)
+			mod:Start(loaded)
 		end
 	end
 
