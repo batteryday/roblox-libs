@@ -27,7 +27,7 @@ local ServerScriptService = game:GetService("ServerScriptService")
 
 local ProfileStore = require(ServerScriptService.ProfileStore)
 local Replica = require(ServerScriptService.Replica)
-local Signal = require(ReplicatedStorage.Packages.signal)
+local Signal = require(ReplicatedStorage.Packages.Signal)
 
 local Shared = ReplicatedStorage:WaitForChild("Shared")
 local WriteLibModule = Shared:WaitForChild("ProfileWriteLib")

@@ -50,7 +50,7 @@ else
 	---------------------------------------------------------------------------
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local Players = game:GetService("Players")
-	local Signal = require(ReplicatedStorage.Packages.signal)
+	local Signal = require(ReplicatedStorage.Packages.Signal)
 	local ReplicaClient = require(ReplicatedStorage.ReplicaClient)
 
 	local LocalPlayer = Players.LocalPlayer
